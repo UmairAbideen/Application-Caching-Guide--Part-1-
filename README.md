@@ -310,17 +310,6 @@ Examples:
 
 ---
 
-# 🆚 When to Use What?
-
-| Scenario | Recommended Technique |
-|----------|-----------------------|
-| Frequently accessed application data | Laravel Cache |
-| Expensive database queries | Query Cache |
-| High-traffic production applications | Redis Cache |
-| Clear related cached data together | Cache Tags |
-
----
-
 # 🔥 Real World Example
 
 ## E-Commerce Application
@@ -340,40 +329,6 @@ Dashboard Statistics
 ```
 
 Application Flow:
-
-```
-User Requests Products
-
-        │
-
-        ▼
-
-Check Cache
-
-        │
-
-   Cache Exists?
-
-     │        │
-
-    Yes      No
-
-     │        │
-
-Return     Query Database
-
-Cached         │
-
-Data           ▼
-
-          Store in Cache
-
-               │
-
-               ▼
-
-          Return Data
-```
 
 ---
 
@@ -421,21 +376,3 @@ Run Development Server
 php artisan serve
 ```
 
----
-
-# 🎯 Key Takeaway
-
-Laravel provides multiple ways to improve application performance through caching.
-
-- **Laravel Cache** → Store frequently accessed application data.
-- **Query Cache** → Cache expensive database query results.
-- **Redis Cache** → Use Redis as a high-speed in-memory cache driver.
-- **Cache Tags** → Organize and clear related cache entries efficiently.
-
-Together, these techniques help build **fast, scalable, and high-performance Laravel applications** while reducing database load and improving response times.
-
----
-
-## 📄 License
-
-This project is open-source and available under the **MIT License**.
