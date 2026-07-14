@@ -1,4 +1,4 @@
-# ⚡ Laravel 10 Application Caching Guide
+# ⚡ Laravel 10 Application Caching Guide (Part 1)
 
 This project demonstrates **Application Data Caching** techniques in **Laravel 10** to improve performance by reducing unnecessary database queries and serving frequently accessed data from cache.
 
