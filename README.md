@@ -49,18 +49,6 @@ Without caching, every user request executes the same database query repeatedly.
 
 ---
 
-# 🛠️ Tech Stack
-
-| Tool | Purpose |
-|------|---------|
-| Laravel 10 | PHP Framework |
-| Cache Facade | Data Caching |
-| Eloquent ORM | Database Operations |
-| Redis | High-Speed In-Memory Cache |
-| MySQL | Database |
-
----
-
 # 1️⃣ Laravel Cache
 
 ## What is Laravel Cache?
